@@ -29,6 +29,8 @@ public class Main {
         System.out.println("Total Bill Cost: $" + df1.format(totalBillCost));
         System.out.println("Tip Per Person: $" + df1.format(tipPerPerson));
         System.out.println("Total Bill Per Person: $" + df1.format(totalPerPerson));
+        //close scanner
+        s.close();
 
     }
 }
