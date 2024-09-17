@@ -42,6 +42,8 @@ public class Main {
         double totalPerPerson = totalBillCost / numPeople;
 
         //Printing result
+        System.out.println();
+
         System.out.println("Total Tip Amount: $" + df1.format(totalTipAmount) );
 
         System.out.println("Total Bill Cost: $" + df1.format(totalBillCost));
